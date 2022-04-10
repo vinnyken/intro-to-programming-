@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main()
 {
-    int b;
+    int h;
     
     printf("Enter the number\n");
-    scanf("%d",&b);
+    scanf("%d",&h);
     
-    if(b%5==0/5)
+    if(h%5==0/5)
     {printf("the number is divisible by 5");
     }
     else
