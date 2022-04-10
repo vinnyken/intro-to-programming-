@@ -2,18 +2,18 @@
 #include <stdio.h>
 int main()
 {
-    int a = 3,b = 7, c;
+    int a = 3,b = 7, d;
     
-    c = a+b;
-    printf("a+b = %d\n",c);
-    c = a-b;
-    printf("a-b = %d \n",c);
-    c = a*b;
-    printf("a*b = %d \n",c);
-    c = a/b;
-    printf("a/b = %d \n",c);
-    c = a%b;
-    printf("a%b = %d",c);
+    d = a+b;
+    printf("a+b = %d\n",d);
+    d = a-b;
+    printf("a-b = %d \n",d);
+    d = a*b;
+    printf("a*b = %d \n",d);
+    d = a/b;
+    printf("a/b = %d \n",d);
+    d = a%b;
+    printf("a%b = %d",d);
     
     return 0;
 }
